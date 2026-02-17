@@ -44,7 +44,7 @@ void ATestPawn::MultiCast_ActorShowRPCMessage_Implementation()
 {
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Cyan, TEXT("Hello from server to ALL clients!"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Cyan, TEXT("[MOTD] - MUST HELP YOUR MOTHER!"));
 
 	}
 }
